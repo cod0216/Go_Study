@@ -18,7 +18,7 @@ func main(){
 	// Go는 최강 타입 언어 이다. 서로 같은 형태의 정수더라도 타입이 다르면 안된다.
 	// 타입 변환을 해야된다.
 
-	// var c int = int(b)
+	// var c int = int(b) 3.5 -> 3
 	// d := float(a) * b
 	// f := a*int(e)
 
