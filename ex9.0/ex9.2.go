@@ -12,6 +12,6 @@ func main() {
 	} else if temp <= 18 {
 		fmt.Println("나가자!")
 	} else {
-		fmt.Println("덮다.")
+		fmt.Println("덥다.")
 	}
 }
