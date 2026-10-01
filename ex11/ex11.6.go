@@ -11,7 +11,7 @@ func main () {
 	for {
 		fmt.Print("숫자를 입력 하세요 : ")
 		var number int
-		_, err := fmt.Scanln(&number) //읽어온 값의 갯수 _, (필요 없다는 뜻, 빈칸 지시자, 첫번째 리턴값을 안쓰겠다 라는 의미, Go에선 할당한 변수를 반드시 써야됨 안쓰면 에러남)
+		_, err := fmt.Scanln(&number) //읽어온 값의 개수 _, (필요 없다는 뜻, 빈칸 지시자, 첫번째 리턴값을 안쓰겠다 라는 의미, Go에선 할당한 변수를 반드시 써야됨 안쓰면 에러남)
 		if err != nil {
 			fmt.Println("숫자로 입력해주세요")
 
