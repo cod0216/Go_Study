@@ -4,3 +4,4 @@ bin/
 # Go 빌드 산출물 (디렉터리명과 같은 이름의 실행 파일)
 ex*/ex*
 !ex*/*.go
+usepkg/program/program
